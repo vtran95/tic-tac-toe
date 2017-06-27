@@ -114,7 +114,7 @@ function displayXO() {
     checkWin();
 };
 
-function initialize() {
+function onClick() {
     for (var i = 0; i < box.length; i++) {
         box[i].style.backgroundColor = "#fff2bf";
         box[i].textContent = "";
